@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     // origin: new URL("https://calendlyclone.netlify.app"),
-    origin: new URL("http://localhost:3000"),
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
